@@ -11,13 +11,13 @@
     <description>$description$</description>
     <tags>tazmainiandevil Useful.ApplicationInsights.Abstractions useful ApplicationInsights Azure Telemetry</tags>
     <dependencies>
-      <dependency id="Newtonsoft.Json" version="9.0.1" />
-      <dependency id="WindowsAzure.ServiceBus" version="3.4.5" />
+      <dependency id="Microsoft.ApplicationInsights" version="2.3.0" />      
     </dependencies>
   </metadata>
   <files>
-    <file src="src\Useful.EventHub.Abstractions\bin\Release\net451\Useful.ApplicationInsights.Abstractions.dll" target="lib\net451\Useful.ApplicationInsights.Abstractions.dll" />
-	<file src="src\Useful.EventHub.Abstractions\bin\Release\net452\Useful.ApplicationInsights.Abstractions.dll" target="lib\net452\Useful.ApplicationInsights.Abstractions.dll" />
-	<file src="src\Useful.EventHub.Abstractions\bin\Release\net46\Useful.ApplicationInsights.Abstractions.dll" target="lib\net46\Useful.ApplicationInsights.Abstractions.dll" />
+    <file src="Useful.ApplicationInsights.Abstractions\bin\Release\net451\Useful.ApplicationInsights.Abstractions.dll" target="lib\net451\Useful.ApplicationInsights.Abstractions.dll" />
+	<file src="Useful.ApplicationInsights.Abstractions\bin\Release\net452\Useful.ApplicationInsights.Abstractions.dll" target="lib\net452\Useful.ApplicationInsights.Abstractions.dll" />
+	<file src="Useful.ApplicationInsights.Abstractions\bin\Release\net46\Useful.ApplicationInsights.Abstractions.dll" target="lib\net46\Useful.ApplicationInsights.Abstractions.dll" />
+  <file src="Useful.ApplicationInsights.Abstractions\bin\Release\netcoreapp1.1\Useful.ApplicationInsights.Abstractions.dll" target="lib\netcoreapp1.1\Useful.ApplicationInsights.Abstractions.dll" />  
   </files>
 </package>
