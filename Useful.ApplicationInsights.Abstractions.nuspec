@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <owners>$owners$</owners>
+    <licenseUrl>https://github.com/Tazmainiandevil/Useful.ApplicationInsights.Abstractions/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Tazmainiandevil/Useful.ApplicationInsights.Abstractions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <tags>tazmainiandevil Useful.ApplicationInsights.Abstractions useful ApplicationInsights Azure Telemetry</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+      <dependency id="WindowsAzure.ServiceBus" version="3.4.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\Useful.EventHub.Abstractions\bin\Release\net451\Useful.ApplicationInsights.Abstractions.dll" target="lib\net451\Useful.ApplicationInsights.Abstractions.dll" />
+	<file src="src\Useful.EventHub.Abstractions\bin\Release\net452\Useful.ApplicationInsights.Abstractions.dll" target="lib\net452\Useful.ApplicationInsights.Abstractions.dll" />
+	<file src="src\Useful.EventHub.Abstractions\bin\Release\net46\Useful.ApplicationInsights.Abstractions.dll" target="lib\net46\Useful.ApplicationInsights.Abstractions.dll" />
+  </files>
+</package>
